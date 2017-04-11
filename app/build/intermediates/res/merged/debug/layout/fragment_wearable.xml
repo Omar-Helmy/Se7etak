@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#99FFFFFF"
+    tools:context="com.example.omar.healthcare.WearableFragment">
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/heart_icon"
+        android:id="@+id/heart_image"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Your Heart Beats!"
+        android:singleLine="true"
+        android:id="@+id/heart_rate_text"
+        android:textSize="22sp"
+        android:textColor="@color/DarkRed"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Your body smells crispy!"
+        android:singleLine="true"
+        android:id="@+id/body_temp_text"
+        android:textSize="22sp"
+        android:textColor="@color/DarkRed"/>
+
+</LinearLayout>

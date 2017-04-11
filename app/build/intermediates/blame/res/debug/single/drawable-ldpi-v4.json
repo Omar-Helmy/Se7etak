@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\OMAR\\AndroidStudioProjects\\Se7etak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\remote_icon.png",
+        "source": "C:\\Users\\OMAR\\AndroidStudioProjects\\Se7etak\\app\\src\\main\\res\\drawable-ldpi\\remote_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\OMAR\\AndroidStudioProjects\\Se7etak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\facebook_logo.png",
+        "source": "C:\\Users\\OMAR\\AndroidStudioProjects\\Se7etak\\app\\src\\main\\res\\drawable-ldpi\\facebook_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\OMAR\\AndroidStudioProjects\\Se7etak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\account.png",
+        "source": "C:\\Users\\OMAR\\AndroidStudioProjects\\Se7etak\\app\\src\\main\\res\\drawable-ldpi\\account.png"
+    },
+    {
+        "merged": "C:\\Users\\OMAR\\AndroidStudioProjects\\Se7etak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\heart.png",
+        "source": "C:\\Users\\OMAR\\AndroidStudioProjects\\Se7etak\\app\\src\\main\\res\\drawable-ldpi\\heart.png"
+    },
+    {
+        "merged": "C:\\Users\\OMAR\\AndroidStudioProjects\\Se7etak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\rate_icon.png",
+        "source": "C:\\Users\\OMAR\\AndroidStudioProjects\\Se7etak\\app\\src\\main\\res\\drawable-ldpi\\rate_icon.png"
+    }
+]

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Se7etak</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">open menu drawer</string>
+    <string name="drawer_close">close menu drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">189059584768143</string>
+    <string name="title_activity_chat">Chat Activity</string>
+
+
+</resources>

@@ -1,0 +1,114 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:background="@color/Gray"
+    android:layout_height="match_parent" tools:context="com.example.omar.healthcare.LoginFragment">
+
+    <LinearLayout
+        android:id="@+id/login_linear_layout"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/image"
+            android:src="@drawable/splash_logo" />
+
+        <TextView
+            android:text=" Welcome to Se7etak!"
+            android:layout_marginTop="10dp"
+            android:fontFamily="roboto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:text=" Please Login"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/login_email"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress"
+            android:focusable="true"
+            android:textColorHint="@color/Green"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/login_password"
+            android:hint="Enter Password"
+            android:fontFamily="sans-serif"
+            android:inputType="textWebPassword"
+            android:focusable="true"
+            android:textColorHint="@color/Green"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Login"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:background="@drawable/green_button"
+            android:textColor="@color/White"
+            android:textSize="16sp"
+            android:fontFamily="roboto"
+            android:id="@+id/login_button"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:text="OR"
+            android:layout_marginTop="16dp"
+            android:fontFamily="roboto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="36dp"
+            android:text="Facebook Login"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:background="@drawable/blue_button"
+            android:textColor="@color/White"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/facebook_logo"
+            android:fontFamily="roboto"
+            android:id="@+id/facebook_button"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="36dp"
+            android:text="Create account"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:background="@drawable/red_button"
+            android:textColor="@color/White"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/account"
+            android:fontFamily="roboto"
+            android:id="@+id/createnew_button"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</FrameLayout>

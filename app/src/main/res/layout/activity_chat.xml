@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.omar.healthcare.ChatActivity">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="56dp"
+        android:layout_marginTop="?actionBarSize"
+        android:layout_height="match_parent"
+        android:id="@+id/chats_list"
+        android:dividerHeight="10dp"
+        android:divider="@color/White"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true">
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/White"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textColor="@color/Black"
+            android:id="@+id/chat_input"/>
+        <ImageButton
+            android:layout_width="56dp"
+            android:id="@+id/chat_send"
+            android:background="@color/Green"
+            android:src="@drawable/ic_send_white_36dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="56dp" />
+    </LinearLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+</FrameLayout>
